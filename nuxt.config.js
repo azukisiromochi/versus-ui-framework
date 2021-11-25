@@ -45,6 +45,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    // https://buefy.org/documentation/start
+    ['nuxt-buefy', { css: false }],
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
