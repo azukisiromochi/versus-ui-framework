@@ -47,7 +47,29 @@ export default {
     '@nuxtjs/pwa',
     // https://buefy.org/documentation/start
     ['nuxt-buefy', { css: false }],
+    // https://vuetifyjs.com/ja/getting-started/installation/
+    ['@nuxtjs/vuetify', { defaultAssets: false }],
   ],
+
+  vuetify: {
+    customVariables: ['~/assets/vuetify/variables.scss'],
+    treeShake: true,
+    theme: {
+      options: {
+        customProperties: true
+      },
+      light: true,
+      themes: {
+        light: {
+          background: '#d0f0c0',
+          primary: '#00ced1',
+          secondary: '#f08080',
+          accent: '#9370db',
+          error: '#2f4f4f',
+        }
+      }
+    }
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
