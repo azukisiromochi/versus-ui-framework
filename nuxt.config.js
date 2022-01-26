@@ -49,6 +49,8 @@ export default {
     ['nuxt-buefy', { css: false }],
     // https://vuetifyjs.com/ja/getting-started/installation/
     ['@nuxtjs/vuetify', { defaultAssets: false }],
+    // https://bootstrap-vue.org/docs
+    'bootstrap-vue/nuxt',
   ],
 
   vuetify: {
@@ -59,15 +61,6 @@ export default {
         customProperties: true
       },
       light: true,
-      themes: {
-        light: {
-          background: '#d0f0c0',
-          primary: '#00ced1',
-          secondary: '#f08080',
-          accent: '#9370db',
-          error: '#2f4f4f',
-        }
-      }
     }
   },
 
