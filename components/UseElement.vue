@@ -27,7 +27,7 @@
         <el-checkbox v-model="checked">Option</el-checkbox>
         <el-input v-model="input" placeholder="Please input"></el-input>
       </div>
-    <el-main>
+    </el-main>
     <el-footer>
       <a href="https://github.com/nuxt/nuxt.js" target="_blank"><svg
         class="w-6 h-6 text-gray-600 hover:text-gray-800"
