@@ -309,3 +309,7 @@
     },
   }
 </script>
+
+<style lang="scss" scoped>
+  @import '/assets/vuetify/variables.scss';
+</style>

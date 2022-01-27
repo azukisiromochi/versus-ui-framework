@@ -23,14 +23,13 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    'vuesax/dist/vuesax.css',
-  ],
+  css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '@/plugins/element-ui',
     '@/plugins/framevuerk',
+    '@/plugins/oruga',
     '@/plugins/vuesax',
   ],
 
@@ -52,21 +51,10 @@ export default {
     // https://buefy.org/documentation/start
     ['nuxt-buefy', { css: false }],
     // https://vuetifyjs.com/ja/getting-started/installation/
-    ['@nuxtjs/vuetify', { defaultAssets: false }],
+    ['@nuxtjs/vuetify'],
     // https://bootstrap-vue.org/docs
     'bootstrap-vue/nuxt',
   ],
-
-  vuetify: {
-    customVariables: ['~/assets/vuetify/variables.scss'],
-    treeShake: true,
-    theme: {
-      options: {
-        customProperties: true
-      },
-      light: true,
-    }
-  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
