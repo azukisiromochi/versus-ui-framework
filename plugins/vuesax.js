@@ -1,8 +1,7 @@
 import Vue from 'vue'
  import Vuesax from 'vuesax'
 
- import 'vuesax/dist/vuesax.css'
- Vue.use(Vuesax, {
+Vue.use(Vuesax, {
    // colors: {
    //    primary:'#5b3cc4',
    //    success:'rgb(23, 201, 100)',
