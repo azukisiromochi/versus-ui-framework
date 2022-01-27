@@ -25,7 +25,7 @@
           <el-button type="danger">Danger</el-button>
         </el-row>
         <el-checkbox v-model="checked">Option</el-checkbox>
-        <el-input placeholder="Please input" v-model="input"></el-input>
+        <el-input v-model="input" placeholder="Please input"></el-input>
       </div>
     <el-main>
     <el-footer>
