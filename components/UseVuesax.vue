@@ -119,6 +119,7 @@
 </template>
 
 <script>
+  import 'vuesax/dist/vuesax.css'
    export default {
      data:() => ({
        option1: true,
