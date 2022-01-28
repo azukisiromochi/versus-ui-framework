@@ -51,7 +51,7 @@ export default {
     // https://buefy.org/documentation/start
     ['nuxt-buefy', { css: false }],
     // https://vuetifyjs.com/ja/getting-started/installation/
-    ['@nuxtjs/vuetify'],
+    ['@nuxtjs/vuetify', { defaultAssets: false }],
     // https://bootstrap-vue.org/docs
     'bootstrap-vue/nuxt',
   ],
